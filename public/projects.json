@@ -13,7 +13,7 @@
             "name": "Cashmen - EndUser, Admin & Dealers Android App",
             "tech": ["Android SDK", "Java"],
             "img": "https://lh3.googleusercontent.com/ik3Zap2pixe2aqS3-cc_nGIeHZv7xpTcTzXqHnYeV0ygYoT_fiJiDLGfAT_S3tPzOC-M",
-            "link": "",
+            "link": "https://play.google.com/store/apps/details?id=in.cashmen.cashmen&hl=en_IN&gl=US",
             "count": "3,60,000+",
             "countDesc": "Downloads"
         },
@@ -22,7 +22,7 @@
             "name": "Crisper - Customisable Illustrations & Stock Images",
             "tech": ["Android SDK", "Java"],
             "img": "https://lh3.googleusercontent.com/ns6Y2r2rhXJG5Vr5abbWq_4TyC8-VugqHC5_Z6mrBA6Xq3u76zKOe0k7QkB1Xj0m3NRC",
-            "link": "",
+            "link": "https://play.google.com/store/apps/details?id=com.junaidgandhi.crisper&hl=en_IN&gl=US",
             "count": "3,10,000+",
             "countDesc": "Downloads"
         }, {
@@ -30,7 +30,7 @@
             "name": "Orphic - The Word App",
             "tech": ["Android SDK", "Java"],
             "img": "https://lh3.googleusercontent.com/iMfa35TjA3tvfQnF_cjAKAmXzJKYqCD1TwQ0HiZORrw1Z-8thODVKfzk1KLdxadDr6A",
-            "link": "",
+            "link": "https://play.google.com/store/apps/details?id=orphic.eclectik.com.orphic&hl=en_IN&gl=US",
             "count": "4,25,000+",
             "countDesc": "Downloads"
         }, {
@@ -38,7 +38,7 @@
             "name": "WollPepper - The wallpaper App",
             "tech": ["Android SDK", "Java"],
             "img": "https://lh3.googleusercontent.com/fhp6AcXAOTX7s6IeCtd5RGjyVeJ7r5rxurvhQFAgPNKM-TH1hS5EbR03QGy8PBPXS04",
-            "link": "",
+            "link": "https://play.google.com/store/apps/details?id=com.eclectik.wolpepper&hl=en_IN&gl=US",
             "count": "67,000+",
             "countDesc": "Downloads"
         }, {
@@ -46,7 +46,7 @@
             "name": "EveQuote - The Quote App",
             "tech": ["Android SDK", "Java"],
             "img": "https://lh3.googleusercontent.com/_YUad9Lmn39IYewwtH-we8Vm0l0nl_dD-dwN1isUIMnRcMSI5Qwx7v46rMzwfa9vhRCb",
-            "link": "",
+            "link": "https://play.google.com/store/apps/details?id=com.eclectik.evequote&hl=en_IN&gl=US",
             "count": "8,000+",
             "countDesc": "Downloads"
         }, {
@@ -54,7 +54,7 @@
             "name": "EveQuote - Web App",
             "tech": ["ReactJs", "CSS", "HTML", "Git"],
             "img": "/evequote-web.webp",
-            "link": "",
+            "link": "https://evequote.junaidgandhi.com/",
             "count": "Open",
             "countDesc": "Source"
         }

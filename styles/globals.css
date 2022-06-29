@@ -63,3 +63,7 @@ a {
 .mongodb {
   color: #409042;
 }
+
+.hiddenLinkName {
+  font-size: 0;
+}

@@ -38,9 +38,10 @@ export default function Home() {
 			<header className={styles.header}>
 				<nav className={styles.nav}>
 					<img
-						src="https://pbs.twimg.com/profile_images/1541152906396610560/UOWih33U_400x400.jpg"
+						src="https://pbs.twimg.com/profile_images/1541152906396610560/UOWih33U_200x200.jpg"
 						alt="Junaid Gandhi"
 						className={styles.profilePic}
+						height="64"
 					/>
 					<Link href="/resume.pdf">
 						<a className={styles.resume}>Resume</a>

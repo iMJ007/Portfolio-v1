@@ -21,6 +21,7 @@ export default function Contact() {
 					data-social-name="Twitter"
 				>
 					<FiTwitter />
+					<span className="hiddenLinkName">My Twitter Profile</span>
 				</a>
 				<a
 					href="https://github.com/iMJ007"
@@ -28,6 +29,7 @@ export default function Contact() {
 					data-social-name="GitHub"
 				>
 					<FiGithub />
+					<span className="hiddenLinkName">My Github Profile</span>
 				</a>
 				<a
 					href="https://codepen.io/IMJ"
@@ -35,6 +37,7 @@ export default function Contact() {
 					data-social-name="CodePen"
 				>
 					<FiCodepen />
+					<span className="hiddenLinkName">My CodePen Profile</span>
 				</a>
 				<a
 					href="https://www.linkedin.com/in/mohammed-junaid-gandhi-31555313b/"
@@ -42,6 +45,7 @@ export default function Contact() {
 					data-social-name="LinkedIn"
 				>
 					<FiLinkedin />
+					<span className="hiddenLinkName">My LinkedIn Profile</span>
 				</a>
 				<a
 					href="mailto:contact@junaidgandhi.com"
@@ -49,6 +53,7 @@ export default function Contact() {
 					data-social-name="Email"
 				>
 					<FiMail />
+					<span className="hiddenLinkName">Email Me</span>
 				</a>
 			</div>
 		</section>
