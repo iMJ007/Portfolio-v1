@@ -1,0 +1,201 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+.root {
+    width: 300px;
+    height: 430.77px;
+    max-height: 70vh;
+    position: relative;
+    /* border: 1px solid #000; */
+    display: grid;
+    border-radius: .5rem;
+    background-color: #404040;
+}
+
+.root:hover .base {
+    box-shadow: 0 0 15px 1px #a0a0a040;
+    filter: blur(0px);
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-self: flex-end;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 30px 20px -15px rgba(0, 0, 0, 0);
+    background-color: #373737;
+    filter: grayscale(100%);
+}
+
+
+.root:hover .overlay {
+    width: 90%;
+    height: 90%;
+    transform: translateY(-35%);
+    box-shadow: 0 30px 20px -15px rgba(0, 0, 0, .5);
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    filter: grayscale(0%);
+}
+
+.root:hover .overlay h3 {
+    font-size: 1rem;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.overlay img {
+    width: 100%;
+    min-height: 65%;
+    max-height: 65%;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.overlay h3,
+.overlay div {
+    z-index: 1;
+}
+
+.overlay h3 {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: .85rem;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0);
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    filter: blur(3px);
+}
+
+.techTitle {
+    margin: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.5rem;
+    margin-top: .25rem;
+    margin-bottom: .75rem;
+    opacity: .8;
+}
+
+
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0rem 1rem 1rem 1.25rem;
+    margin-top: 0;
+    gap: .25rem;
+}
+
+.currentTech {
+    position: relative;
+    font-size: 1rem;
+    width: 2.0rem;
+    height: 2.0rem;
+    padding-top: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #3b3b3b;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.currentTech:hover::before {
+    position: absolute;
+    content: attr(data-tech-name);
+    background-color: #2b2b2b;
+    width: fit-content;
+    margin-top: 2rem;
+    font-size:.8rem;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+}
+
+.rate-num-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    color: #999;
+    font-size: .85rem;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.rate-num-container>p {
+    margin-left: -.2rem;
+}
+
+.rating-container svg {
+    margin-left: -.5rem;
+}
+
+.rev-count {
+    font-weight: 500;
+    color: #B46523;
+}
+
+
+@media (max-width: 768px) {
+    .root {
+        width: 250px;
+        height: 359px;
+    }
+
+    .overlay h3 {
+        padding: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .root:hover .overlay {
+        width: 90%;
+        height: 90%;
+        transform: translateY(-45%);
+        box-shadow: 0 30px 20px -15px rgba(0, 0, 0, .5);
+        transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        filter: grayscale(0%);
+    }
+
+}

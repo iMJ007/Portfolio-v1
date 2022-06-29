@@ -1,0 +1,91 @@
+.root{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+}
+
+.title {
+    color: #F0F0F0;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 0rem;
+}
+
+.subtitle {
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+    color: #a0a0a0;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.socialLinksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: .5rem;
+}
+
+.socialLink {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-color: #3b3b3b;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: #FAFAFA;
+    transition: all 0.5s ease-in-out;
+}
+
+.socialLink:hover {
+    color: #3b3b3b;
+    background-color: #FAFAFA;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.socialLink:hover::before {
+    position: absolute;
+    content: attr(data-social-name);
+    background-color: #fafafa;
+    width: fit-content;
+    margin-top: 5.5rem;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: .25rem .5rem;
+    border-radius: .25rem; 
+    animation-name: move-in;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes move-in {
+    from {
+        transform: translateY(-100%) translateX(-35%) scaleX(50%);
+    }
+    to {
+        transform: translateY(0%) translateX(-35%) scaleX(100%);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .subtitle {
+        max-width: 90%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .subtitle {
+        max-width: 100%;
+        text-align: left;
+    }
+}
