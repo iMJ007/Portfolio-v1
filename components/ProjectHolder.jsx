@@ -51,7 +51,7 @@ export default function ProjectHolder({ project }) {
 				</div>
 			</div>
 			<a href={project.link} className={styles.overlay}>
-				<img src={project.img} alt={project.name} width="300px" target="_blank" />
+				<img src={project.img} alt={project.name} width="300" target="_blank" />
 				<h3>{project.name}</h3>
 			</a>
 		</div>

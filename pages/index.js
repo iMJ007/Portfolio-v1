@@ -16,6 +16,10 @@ export default function Home() {
 					name="description"
 					content="I'm Junaid Gandhi, a Web and Android developer from Mumbai who loves speaking about HTML, CSS, JavaScript, web development, Java and Android along with CrossFit."
 				/>
+				<meta property="og:title" content="Junaid Gandhi | Android and Front End developer"/>
+				<meta property="og:description" content="I'm Junaid Gandhi, a Web and Android developer from Mumbai who loves speaking about HTML, CSS, JavaScript, web development, Java and Android along with CrossFit."/>
+				<meta property="og:image" content="https://profile.junaidgandhi.com/android-chrome-192x192.png"/>
+				<meta property="og:url" content="https://profile.junaidgandhi.com"/>
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
