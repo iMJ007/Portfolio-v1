@@ -6,6 +6,7 @@ import Projects from "../components/Projects";
 import styles from "../styles/Home.module.css";
 import { SiNextdotjs } from "react-icons/si";
 import Link from "next/link";
+
 export default function Home() {
 	return (
 		<div className={styles.container}>
@@ -42,11 +43,12 @@ export default function Home() {
 			</Head>
 			<header className={styles.header}>
 				<nav className={styles.nav}>
-					<img
+					<Image
 						src="https://pbs.twimg.com/profile_images/1541152906396610560/UOWih33U_200x200.jpg"
 						alt="Junaid Gandhi"
 						className={styles.profilePic}
-						height="64"
+						height={52}
+						width={52}
 					/>
 					<Link href="/resume.pdf">
 						<a className={styles.resume}>Resume</a>

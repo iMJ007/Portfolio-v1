@@ -17,6 +17,8 @@ import {
 	FaGitAlt,
 } from "react-icons/fa";
 import { SiNextdotjs, SiMongodb } from "react-icons/si";
+import Image from "next/image";
+
 
 export default function ProjectHolder({ project }) {
 	let combo = {
@@ -51,7 +53,9 @@ export default function ProjectHolder({ project }) {
 				</div>
 			</div>
 			<a href={project.link} className={styles.overlay}>
-				<img src={project.img} alt={project.name} width="300" target="_blank" />
+				<div className={styles.overlayWrapper}>
+					<Image src={project.img} alt={project.name} width={300} height={280}  target="_blank" />
+				</div>
 				<h3>{project.name}</h3>
 			</a>
 		</div>
