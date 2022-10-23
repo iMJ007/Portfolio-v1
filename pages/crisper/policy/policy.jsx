@@ -1,6 +1,6 @@
 function policy() {
 	return (
-		<div>
+		<div style={{backgroundColor: 'white'}}>
 			Privacy Policy
 			<br />
 			<br />
