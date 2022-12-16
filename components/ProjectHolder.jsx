@@ -30,7 +30,8 @@ export default function ProjectHolder({ project }) {
 		NodeJs: [<FaNodeJs />, "node"],
 		ReactJs: [<FaReact />, "react"],
 		MongoDB: [<SiMongodb />, "mongodb"],
-		Git: [<FaGitAlt />, "git"]
+		Git: [<FaGitAlt />, "git"],
+		NextJs: [<SiNextdotjs/>, "nextjs"]
 	};
 	return (
 		<div className={styles.root}>

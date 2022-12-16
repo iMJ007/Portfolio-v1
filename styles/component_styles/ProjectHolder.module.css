@@ -76,10 +76,11 @@
     height: 100%;
     margin: 0;
     padding: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
     line-height: 1.75rem;
     font-size: 1.25rem;
+    letter-spacing: .025em;
     display: flex;
     align-items: center;
 }
